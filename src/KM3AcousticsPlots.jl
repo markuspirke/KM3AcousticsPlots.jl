@@ -1,5 +1,13 @@
 module KM3AcousticsPlots
 
-# Write your package code here.
+using KM3Acoustics
+using GLMakie
+using Statistics
+using Dates
+
+export
+    hist
+
+include("2dplots.jl")
 
 end
