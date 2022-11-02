@@ -4,10 +4,11 @@ using KM3Acoustics
 using GLMakie
 using Statistics
 using Dates
+using Colors
 
 export
-    hist
+    hist, meshscatter
 
 include("2dplots.jl")
-
+include("3dplots.jl")
 end
